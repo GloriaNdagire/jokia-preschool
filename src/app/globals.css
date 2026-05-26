@@ -4,12 +4,12 @@
 :root {
   --blue:        #0F4C81;
   --blue-dark:   #0a3460;
-  --blue-deeper: #072648;
+  --blue-deeper: #0a3460;
   --blue-light:  #e8f1fb;
   --blue-mid:    #3a7bbf;
 
-  --gray-bg:     #E2E2E2;
-  --gray-light:  #f5f5f5;
+  --gray-bg:     #E8F1FB;
+  --gray-light:  #F0F7FF;
   --gray-mid:    #b0b0b0;
 
   --text-dark:   #111827;
@@ -17,7 +17,7 @@
   --text-muted:  #6B7280;
 
   --white:       #ffffff;
-  --off-white:   #fafafa;
+  --off-white:   #F8FBFF;
 
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'DM Sans', system-ui, sans-serif;
