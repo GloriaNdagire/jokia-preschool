@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Footer from '@/components/Footer'
 import styles from './about.module.css'
 import type { Metadata } from 'next'
@@ -7,6 +8,16 @@ export const metadata: Metadata = {
   description:
     'Learn about the mission, vision and values that drive Jokia Pre School — building confident, disciplined, well-rounded children from the roots.',
 }
+=======
+import Footer from "@/components/Footer";
+import styles from "./about.module.css";
+
+export const metadata = {
+  title: "About Us – Jokia Pre School",
+  description:
+    "Learn about Jokia Pre School — our mission, values, and the dedicated team behind our children's growth.",
+};
+>>>>>>> df5b077ad410c2f8c5cd12c4d2f1732f4c1b1338
 
 export default function AboutPage() {
   return (
@@ -155,5 +166,5 @@ export default function AboutPage() {
 
       <Footer />
     </>
-  )
+  );
 }
