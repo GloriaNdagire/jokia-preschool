@@ -1,17 +1,212 @@
+/* ── Hero banner ─────────────────────────────── */
 .heroBanner {
-  background: var(--blue-deeper);
-  padding: 9rem 2rem 4rem;
-  margin-top: 0;
+  background: linear-gradient(135deg, var(--blue-deeper) 0%, var(--blue) 100%);
+  padding: 9rem 2rem 5rem;
+  position: relative;
+  overflow: hidden;
 }
 
-.content {
-  padding: 5rem 2rem;
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0; right: 0;
+  height: 60px;
+  background: var(--white);
+  clip-path: ellipse(55% 100% at 50% 100%);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 0.75rem;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.heroSub {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.7);
+  max-width: 520px;
+  line-height: 1.7;
+}
+
+/* ── Sections ─────────────────────────────────── */
+.section {
+  padding: 6rem 2rem;
   background: var(--white);
 }
 
-.body {
-  font-size: 1.05rem;
+.sectionTinted {
+  background: var(--gray-bg); /* #E8F1FB — soft blue tint */
+}
+
+/* ── Mission / Vision blocks ─────────────────── */
+.block {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  max-width: 820px;
+}
+
+/*
+.blockReverse {
+  /* Vision block — same layout, just different bg */
+
+
+.blockIcon {
+  font-size: 3rem;
+  line-height: 1;
+  padding-top: 0.25rem;
+}
+
+.blockBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.pullQuote {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--blue);
+  border-left: 3px solid var(--blue);
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.bodyText {
+  font-size: 1.02rem;
   line-height: 1.85;
   color: var(--text-body);
-  max-width: 680px;
+  margin-bottom: 1rem;
+}
+
+.bodyText:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Values ───────────────────────────────────── */
+.valuesHeader {
+  margin-bottom: 3rem;
+  max-width: 640px;
+}
+
+.valuesIntro {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: var(--text-body);
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.valueCard {
+  background: var(--white);
+  border: 1.5px solid rgba(15, 76, 129, 0.1);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.75rem;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition), box-shadow var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.valueCard::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: var(--blue);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.valueCard:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+}
+
+.valueEmoji {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.valueTitle {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--blue-deeper);
+  margin-bottom: 0.3rem;
+}
+
+.valueTagline {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--blue);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.valueDesc {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+
+/* ── Closing promise ──────────────────────────── */
+.promiseSection {
+  background: linear-gradient(135deg, var(--blue-deeper), var(--blue));
+  padding: 5rem 2rem;
+}
+
+.promise {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.promiseQuote {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+}
+
+.promiseAttrib {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.08em;
+}
+
+/* ── Responsive ───────────────────────────────── */
+@media (max-width: 900px) {
+  .valuesGrid { grid-template-columns: 1fr; max-width: 520px; }
+}
+
+@media (max-width: 640px) {
+  .block { grid-template-columns: 1fr; gap: 1rem; }
+  .blockIcon { font-size: 2.5rem; }
+  .section { padding: 4.5rem 1.25rem; }
+  .heroBanner { padding: 7rem 1.25rem 4rem; }
 }

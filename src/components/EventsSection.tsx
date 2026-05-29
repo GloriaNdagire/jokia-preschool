@@ -11,7 +11,7 @@ const events = [
     description:
       'A vibrant celebration of our rich heritage — children dress in traditional attire, perform cultural dances, taste local foods, and proudly share their roots with the school community. A day of colour, pride, and togetherness.',
     emoji: '🎭',
-    imageSrc: null, // Replace with: '/images/cultural-day.jpg'
+    imageSrc: "/images/image1.jpg", // Replace with: '/images/cultural-day.jpg'
     imageAlt: 'Cultural Day at Jokia Pre School',
     accentColor: '#e8a020',
   },
@@ -21,7 +21,7 @@ const events = [
     description:
       'A day of laughter, cheering, and friendly competition — our little athletes take to the field for races, relays, and team games that build sportsmanship, confidence, and team spirit from the earliest age.',
     emoji: '🏅',
-    imageSrc: null, // Replace with: '/images/sports-day.jpg'
+    imageSrc: "/images/image4.JPG", // Replace with: '/images/sports-day.jpg'
     imageAlt: 'Sports Day at Jokia Pre School',
     accentColor: '#2ea855',
   },
@@ -47,7 +47,7 @@ export default function EventsSection() {
     <section className={styles.section} ref={ref} id="events">
       <div className="container">
         <div className={`${styles.header} reveal`}>
-          <p className="section-label">School Life</p>
+          <p className="section-label">School Life outside the classroom</p>
           <h2 className="section-title">Moments That Shape Our Children</h2>
           <div className="accent-bar" />
         </div>

@@ -27,7 +27,7 @@ export default function HeadteacherSection() {
         {/* Header */}
         <div className={`${styles.header} reveal`}>
           <p className="section-label">Leadership</p>
-          <h2 className="section-title">Message from the<br />Head Teacher</h2>
+          <h2 className="section-title">Message from our<br />Head Teacher</h2>
           <div className="accent-bar" />
         </div>
 
@@ -66,22 +66,23 @@ export default function HeadteacherSection() {
               <p>
                 Welcome to Jokia Pre School — a place where we see children not as empty
                 vessels to be filled, but as seeds full of potential, waiting to be
-                nurtured, watered, and given sunlight.
+                nurtured, watered and given sunlight.
               </p>
               <p>
-                Every morning when I watch our little ones arrive — with their bright eyes,
-                their laughter, and their endless questions — I am reminded of why this
+                Every morning when I watch our little ones arrive with their bright eyes,
+                their laughter, and their endless questions I am reminded of why this
                 school exists. We are not merely an institution; we are a second home. A
-                place of warmth, wonder, and belonging.
+                place of warmth, wonder, a sense of belonging.
               </p>
               <p>
                 Our dedicated team of educators work tirelessly to ensure that each child at
-                Jokia grows at their own pace, is celebrated for their unique gifts, and
+                Jokia grows at their own pace, is celebrated for their unique gifts and
                 leaves us with the confidence to face the world ahead. We partner closely
-                with parents, because we know that raising a child truly takes a village.
+                with parents, because we know that raising a child truly takes a village 
+                not an individual.
               </p>
               <p>
-                I invite you to walk this journey with us — to trust us with what is most
+                I invite you to walk this journey with us, to trust us with what is most
                 precious to you. Your child&apos;s first steps in education will be taken here,
                 and we take that privilege very seriously.
               </p>

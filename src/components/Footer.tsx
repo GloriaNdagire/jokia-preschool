@@ -24,9 +24,12 @@ export default function Footer() {
               <p className={styles.brandName}>Jokia Pre School</p>
             </div>
             <p className={styles.tagline}>
-              Building children from the roots — one curious mind, one joyful heart
-              at a time. A place where every child is seen, loved, and given the
-              best start in life.
+              Play – and enjoy learning with friends.<br></br>
+              Learn – both outdoor and indoor enhancing the beauty of practicality.<br></br>
+              Grow – in knowledge and in an all round school training.<br></br><br></br>
+ 
+              A place which strives to give a basis of opportunity, support and love in nuturing each child, 
+              in the aim to reach their maximum potential.
             </p>
           </div>
 
@@ -47,7 +50,7 @@ export default function Footer() {
             <p className={styles.colTitle}>Get in Touch</p>
 
             <a
-              href="https://wa.me/256700000000"
+              href="https://wa.me/256753919284"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.contactItem}
@@ -55,11 +58,11 @@ export default function Footer() {
               <div className={`${styles.contactIcon} ${styles.whatsapp}`}>
                 <WhatsAppIcon />
               </div>
-              <span>+256 700 000 000</span>
+              <span>+256 753 919 284</span>
             </a>
 
             <a
-              href="https://instagram.com/jokiapreschool"
+              href="https://www.instagram.com/jokiapreschool/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.contactItem}
@@ -101,10 +104,10 @@ export default function Footer() {
             &copy; {year} Jokia Pre School. All rights reserved.
           </p>
           <div className={styles.socials}>
-            <a href="https://wa.me/256700000000" target="_blank" rel="noopener noreferrer" className={styles.socialBtn} aria-label="WhatsApp">
+            <a href="https://wa.me/256753919284" target="_blank" rel="noopener noreferrer" className={styles.socialBtn} aria-label="WhatsApp">
               <WhatsAppIcon />
             </a>
-            <a href="https://instagram.com/jokiapreschool" target="_blank" rel="noopener noreferrer" className={styles.socialBtn} aria-label="Instagram">
+            <a href="https://www.instagram.com/jokiapreschool/" target="_blank" rel="noopener noreferrer" className={styles.socialBtn} aria-label="Instagram">
               <InstagramIcon />
             </a>
             <a href="https://facebook.com/jokiapreschool" target="_blank" rel="noopener noreferrer" className={styles.socialBtn} aria-label="Facebook">

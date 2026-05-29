@@ -49,15 +49,15 @@ export default function AboutSection() {
         {/* Right: stat cards */}
         <div className={`${styles.statsCol} reveal reveal-delay-2`}>
           <div className={styles.statCard}>
+            <span className={styles.statNumber}>3</span>
+            <span className={styles.statLabel}>Years of Existence</span>
+          </div>
+          <div className={styles.statCard}>
             <span className={styles.statNumber}>10+</span>
-            <span className={styles.statLabel}>Years of Excellence</span>
+            <span className={styles.statLabel}>Honorable Graduates</span>
           </div>
           <div className={styles.statCard}>
-            <span className={styles.statNumber}>200+</span>
-            <span className={styles.statLabel}>Happy Graduates</span>
-          </div>
-          <div className={styles.statCard}>
-            <span className={styles.statNumber}>15</span>
+            <span className={styles.statNumber}>5</span>
             <span className={styles.statLabel}>Dedicated Educators</span>
           </div>
           <div className={styles.statCard}>

@@ -26,19 +26,14 @@
   transform: scale(1);
 }
 
-/*
-  Replace these gradients with your real images:
-  .slide1 { background-image: url('/images/hero-1.jpg'); }
-  .slide2 { background-image: url('/images/hero-2.jpg'); }
-  .slide3 { background-image: url('/images/hero-3.jpg'); }
-*/
+.slide1 { background-image: url('/images/image2.jpg'); }
+.slide2 { background-image: url('/images/image6.jpg'); }
+.slide3 { background-image: url('/images/image3.JPG'); }
 
-.slide1 { background: linear-gradient(140deg, #E8F1FB 0%, #C8DDF5 50%, #DAEEFF 100%); }
-.slide2 { background: linear-gradient(140deg, #EFF8FF 0%, #D4ECFF 50%, #C2E0FF 100%); }
-.slide3 { background: linear-gradient(140deg, #F0F9FF 0%, #CBE8FF 50%, #BFE0FF 100%); }
+/*.slide1 { background: linear-gradient(140deg, #E8F1FB 0%, #C8DDF5 50%, #DAEEFF 100%); }
+/*.slide2 { background: linear-gradient(140deg, #EFF8FF 0%, #D4ECFF 50%, #C2E0FF 100%); }*/
+/*.slide3 { background: linear-gradient(140deg, #F0F9FF 0%, #CBE8FF 50%, #BFE0FF 100%); }*/
 
-
-/* ── Overlays ───────────────────────────────── */
 .overlay {
   position: absolute;
   inset: 0;

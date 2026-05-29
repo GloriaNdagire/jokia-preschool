@@ -53,7 +53,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Hamburger */}
+        {/* Hamburger button */}
         <button
           className={`${styles.hamburger} ${menuOpen ? styles.open : ''}`}
           onClick={() => setMenuOpen(v => !v)}
@@ -64,17 +64,22 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile drawer */}
+      {/*
+        Mobile drawer — the outer div animates max-height (overflow:hidden).
+        The inner div holds the actual links so nothing peeks out when closed.
+      */}
       <div className={`${styles.drawer} ${menuOpen ? styles.drawerOpen : ''}`}>
-        {links.map(({ href, label }) => (
-          <Link
-            key={href}
-            href={href}
-            className={`${styles.drawerLink} ${pathname === href ? styles.active : ''}`}
-          >
-            {label}
-          </Link>
-        ))}
+        <div className={styles.drawerInner}>
+          {links.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className={`${styles.drawerLink} ${pathname === href ? styles.active : ''}`}
+            >
+              {label}
+            </Link>
+          ))}
+        </div>
       </div>
     </nav>
   )
