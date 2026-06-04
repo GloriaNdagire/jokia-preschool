@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   ──────────────────────────────────────────────────────
 */
 
-const CURRENT_TERM = 'Term 2, 2025'
-const TERM_DATES   = 'May 2025 – August 2025'
+const CURRENT_TERM = 'Term 2, 2026'
+const TERM_DATES   = 'May 2026 – August 2026'
 
 type EventItem = {
   date: string
@@ -32,9 +32,9 @@ type EventItem = {
 
 const events: EventItem[] = [
   {
-    date: 'Mon 5 May',
+    date: 'Mon 25 May',
     title: 'Term 2 Begins',
-    description: 'First day of Term 2. Children report to school by 7:30 AM in full uniform.',
+    description: 'First day of Term 2. Children report to school by 7:00 AM in full uniform.',
     category: 'admin',
   },
   {
