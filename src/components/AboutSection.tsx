@@ -29,23 +29,27 @@ export default function AboutSection() {
           <h2 className="section-title">A Place Where<br />Every Child Blooms</h2>
           <div className="accent-bar" />
           <div className={styles.body}>
-            <p>
-              Jokia Pre School was founded on a simple but powerful belief: every child
-              deserves a safe, nurturing, and stimulating environment right from the very
-              beginning. Nestled in the heart of our community, we have been building
-              confident, curious, and kind children — one smile at a time.
-            </p>
-            <p>
-              Our approach is rooted in play-based learning, where children develop social
-              skills, creativity, and a love for discovery through structured play,
-              storytelling, arts, movement, and exploration.
-            </p>
-            <p>
-              At Jokia, we don't just prepare children for school — we prepare them for life.
-            </p>
+           <p>
+            When we started Jokia, we had one simple goal in mind: to create a space 
+            where every single child feels safe, loved and excited to learn from day one. 
+            We are proud to be right here in your neighborhood, helping our little ones 
+            grow into confident, curious, and kind children, one smile at a time.
+          </p>
+        <p>
+          We believe that at this age, children learn best when they are having fun. 
+          That is why our days are packed with art, music, running around and plenty 
+          of playtime. Through these activities, your child isn't just playing, they are 
+          learning how to share, make friends and think creatively.
+        </p>
+        <p>
+         At Jokia, we do more than just get your child ready for primary school. We give them the best possible start for life.
+        </p>
+        <p>
+         We would love to welcome your family into ours. Please feel free to pass by and see what makes our school so special!
+        </p>
           </div>
         </div>
-
+        
         {/* Right: stat cards */}
         <div className={`${styles.statsCol} reveal reveal-delay-2`}>
           <div className={styles.statCard}>
