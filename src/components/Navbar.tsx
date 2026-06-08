@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './Navbar.module.css'
+import Image from 'next/image'
 
 const links = [
   { href: '/',        label: 'Home' },
@@ -32,10 +33,16 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className={styles.logo}>
-          {/*
-          <div className={styles.logoIcon}>JP</div>
+          <div className={styles.logoIcon}>
+            <Image 
+      src="/images/image7.jpg" 
+      alt="Jokia Pre School Logo" 
+      width={42} 
+      height={42}
+      className={styles.logoImg}
+         />
+        </div>
           <div className={styles.logoText}>
-            */}
             Jokia Pre School
             <span>Play · Learn · Grow</span>
           </div>
