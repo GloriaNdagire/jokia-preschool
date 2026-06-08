@@ -32,8 +32,10 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className={styles.logo}>
+          {/*
           <div className={styles.logoIcon}>JP</div>
           <div className={styles.logoText}>
+            */}
             Jokia Pre School
             <span>Play · Learn · Grow</span>
           </div>
