@@ -12,13 +12,13 @@
 
 /* ── Text ───────────────────────────────────── */
 .body {
-  /*display: flex;*/
+  /*display: flex;
   flex-direction: column;
   gap: 1rem;
   font-size: 1.05rem;
   line-height: 1.85;
   color: var(--text-body);
-  max-width: 520px;
+  max-width: 520px;*/
 }
 
 /* ── Stat cards ─────────────────────────────── */
