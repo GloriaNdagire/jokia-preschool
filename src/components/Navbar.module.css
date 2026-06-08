@@ -26,7 +26,6 @@
 
 /* ── Logo ───────────────────────────────────── */
 .logo {
-  background-image: url('/images/image7.jpg');
   display: flex;
   align-items: center;
   gap: 0.8rem;
