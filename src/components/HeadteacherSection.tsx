@@ -48,13 +48,13 @@ export default function HeadteacherSection() {
                 />
               */}
               <div className={styles.photoPlaceholder}>
-                <span className={styles.initials}>GN</span>
+                <span className={styles.initials}>SJ</span>
                 <span className={styles.addPhoto}>Add photo here</span>
               </div>
             </div>
 
             <div className={styles.nameBlock}>
-              <p className={styles.name}>Mrs. Grace Namutebi</p>
+              <p className={styles.name}>Mrs. Jane</p>
               <p className={styles.title}>Head Teacher, Jokia Pre School</p>
             </div>
           </div>
@@ -64,15 +64,17 @@ export default function HeadteacherSection() {
             <span className={styles.quoteMark}>&ldquo;</span>
             <div className={styles.messageBody}>
               <p>
-                Welcome to Jokia Pre School — a place where we see children not as empty
+                Welcome to Jokia Pre School, a place where we see children not as empty
                 vessels to be filled, but as seeds full of potential, waiting to be
                 nurtured, watered and given sunlight.
               </p>
               <p>
-                Every morning when I watch our little ones arrive with their bright eyes,
-                their laughter, and their endless questions I am reminded of why this
-                school exists. We are not merely an institution; we are a second home. A
-                place of warmth, wonder, a sense of belonging.
+                We believe that early childhood education is about more than just ABCs and 123s; 
+                it is about sparking curiosity, building confidence and learning how to be a kind friend. 
+                Our dedicated team of educators works hard every day to create a "home away from home" 
+                where your little one feels secure enough to take big leaps in their development. 
+                We are not merely an institution; we are a second home. A place of warmth, wonder, 
+                a sense of belonging.
               </p>
               <p>
                 Our dedicated team of educators work tirelessly to ensure that each child at
@@ -86,9 +88,9 @@ export default function HeadteacherSection() {
                 precious to you. Your child&apos;s first steps in education will be taken here,
                 and we take that privilege very seriously.
               </p>
-              <p>Together, let us build our children from the roots.</p>
+              <p>Together, let us build our children and let them grow, learn and play.</p>
             </div>
-            <p className={styles.signature}>— Mrs. Grace Namutebi</p>
+            <p className={styles.signature}>— Mrs. Jane Namutebi</p>
           </div>
         </div>
       </div>
