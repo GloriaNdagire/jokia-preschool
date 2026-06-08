@@ -39,9 +39,9 @@ export default function Navbar() {
       alt="Jokia Pre School Logo" 
       width={42} 
       height={42}
-      className={styles.logoImg}
-         />
-        </div>
+      className={styles.logoImg}/> 
+          </div>
+          
           <div className={styles.logoText}>
             Jokia Pre School
             <span>Play · Learn · Grow</span>
