@@ -48,13 +48,13 @@ export default function HeadteacherSection() {
                 />
               */}
               <div className={styles.photoPlaceholder}>
-                <span className={styles.initials}>SJ</span>
+                <span className={styles.initials}>JN</span>
                 <span className={styles.addPhoto}>Add photo here</span>
               </div>
             </div>
 
             <div className={styles.nameBlock}>
-              <p className={styles.name}>Mrs. Jane</p>
+              <p className={styles.name}>Mrs. Jane Namutebi</p>
               <p className={styles.title}>Head Teacher, Jokia Pre School</p>
             </div>
           </div>
