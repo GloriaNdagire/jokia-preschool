@@ -27,7 +27,6 @@
 /* ── Logo ───────────────────────────────────── */
 .logo {
   background-image: url('/images/image7.jpg');
-  /*
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -35,23 +34,24 @@
   flex-shrink: 0;
 }
 
-/*.slide1 { background-image: url('/images/image2.jpg'); }
+/*.slide1 { background-image: url('/images/image2.jpg'); */}
 
 .logoIcon {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: var(--white);
-  color: var(--blue);
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 15px;
-  letter-spacing: -0.5px;
   flex-shrink: 0;
   box-shadow: 0 0 0 3px rgba(255,255,255,0.15);
+}
+
+.logoImg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .logoText {
@@ -60,6 +60,8 @@
   font-weight: 700;
   color: var(--white);
   line-height: 1.25;
+  display: flex;
+  flex-direction: column;
 }
 
 .logoText span {
