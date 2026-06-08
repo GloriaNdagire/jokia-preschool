@@ -26,12 +26,16 @@
 
 /* ── Logo ───────────────────────────────────── */
 .logo {
+  background-image: url('/images/image7.jpg');
+  /*
   display: flex;
   align-items: center;
   gap: 0.8rem;
   text-decoration: none;
   flex-shrink: 0;
 }
+
+/*.slide1 { background-image: url('/images/image2.jpg'); }*/
 
 .logoIcon {
   width: 42px;
