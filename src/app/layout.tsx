@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Jokia Pre School – Play, Learn and Grow',
   description:
     'Jokia Pre School nurtures children from the roots — a place where play, learning, and growth come together in a warm, loving environment.',
+  icon: 'images/logo.jpg',
   keywords: [
     'Jokia Pre School',
     'preschool Uganda',
