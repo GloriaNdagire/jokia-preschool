@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './Footer.module.css'
+import Image from 'next/image'
 
 const navLinks = [
   { href: '/',        label: 'Home' },
@@ -20,7 +21,15 @@ export default function Footer() {
           {/* Brand */}
           <div className={styles.brandCol}>
             <div className={styles.logoRow}>
-              <div className={styles.logoIcon}>JP</div>
+              
+              <Image
+  src="/images/logo.png"
+  alt="Jokia Pre School"
+  width={38}
+  height={38}
+  style={{ borderRadius: '50%', objectFit: 'cover' }}
+/>
+              
               <p className={styles.brandName}>Jokia Pre School</p>
             </div>
             <p className={styles.tagline}>
